@@ -32,7 +32,7 @@ signUpWithTwitter()
 //AuthMiddleWare
 
 app.use(bodyParser.json({ limit: '50mb' }))
-app.use(cors({ origin: ["http://localhost:3000"] }));
+app.use(cors({ origin: ["https://excel-world.vercel.app"] }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(express.static('public'))
 

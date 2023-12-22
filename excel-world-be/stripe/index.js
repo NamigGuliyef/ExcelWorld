@@ -4,7 +4,7 @@ import { v4 as genId } from "uuid";
 import nodemailer from "nodemailer"
 import { userModel } from "../models/user.js";
 import { userAuthMiddleWare } from "../auth/authMiddleWare.js";
-const stripe = new Stripe(process.env.STRIPE_SK_LİVE); // API key
+const stripe = new Stripe(process.env.STRIPE_SK_LIVE); // API key
 
 const paymentRoute = new Router();
 

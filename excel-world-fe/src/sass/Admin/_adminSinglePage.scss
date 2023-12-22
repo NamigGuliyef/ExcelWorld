@@ -1,0 +1,18 @@
+.admin-single-blog-page {
+  .admin-single-blog-page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      border: none;
+      background: transparent;
+      color: #ec4134;
+      max-width: fit-content;
+    }
+  }
+
+  img {
+    max-width: 500px;
+  }
+}

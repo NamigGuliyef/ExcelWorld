@@ -1,0 +1,19 @@
+.single-page-social-media {
+  display: flex;
+  gap: 15px;
+
+  a {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    background-color: #e2f4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    i {
+      color: #828282;
+    }
+  }
+}

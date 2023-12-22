@@ -1,0 +1,143 @@
+.auth {
+  padding: 40px 0;
+
+  .auth-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+    .auth-logo-box,
+    .auth-form {
+      width: 50%;
+    }
+
+    .auth-logo-box {
+      padding-top: 50px;
+      text-align: center;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .auth-form {
+      text-align: center;
+
+      h3 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #3fb44a;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        input,
+        button {
+          padding: 15px;
+          border-radius: 4px;
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        input,
+        .auth-page-select {
+          border: 1px solid #828282;
+          color: #bdbdbd;
+        }
+
+        .auth-page-select {
+          border-radius: 4px;
+          text-align: left;
+          color: #bdbdbd;
+        }
+
+        .auth-page-select > div {
+          padding: 10px 0 10px 5px;
+        }
+
+        button {
+          background-color: #3fb44a;
+          border: 1px solid #3fb44a;
+          color: #fff;
+        }
+
+        .repeat-pass-error {
+          border: 1px solid #ff3333;
+        }
+
+        .button-not-active {
+          background-color: #5bcd66;
+          cursor: not-allowed;
+        }
+      }
+
+      p,
+      a {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      p {
+        margin: 25px 0 15px;
+        color: #828282;
+
+        &:last-of-type {
+          color: #bdbdbd;
+          position: relative;
+
+          &::before,
+          &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            background-color: #bdbdbd;
+            width: 37%;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+
+          &::before {
+            left: 0;
+          }
+
+          &::after {
+            right: 0;
+          }
+        }
+
+        a {
+          color: #ff931e;
+        }
+      }
+
+      .auth-social {
+        display: flex;
+        justify-content: center;
+
+        button {
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+          color: #fff;
+          border: none;
+
+          &:first-of-type {
+            margin-right: 15px;
+            background-color: transparent;
+            border: 1px solid #4285f4;
+          }
+
+          &:last-of-type {
+            background-color: #1da1f2;
+          }
+        }
+      }
+    }
+  }
+}

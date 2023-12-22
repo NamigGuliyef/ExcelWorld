@@ -1,0 +1,55 @@
+.learnExcel {
+  margin-top: 90px;
+
+  .container {
+    .row {
+      .text-learnExcel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: #3fb44a;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  .video-learexcel {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 56.25%;
+
+    .playIcon-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.85);
+      display: none;
+
+      .playIcon {
+        i {
+          background-color: #3fb44a;
+          border-radius: 50%;
+          padding: 25px 29px 25px 34px;
+          color: white;
+          font-size: 40px;
+        }
+      }
+    }
+
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      inset: 0;
+    }
+  }
+}

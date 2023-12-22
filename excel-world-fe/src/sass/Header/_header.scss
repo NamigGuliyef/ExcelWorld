@@ -1,0 +1,66 @@
+.head {
+  background-color: #e1f3e3;
+  padding: 10px 0px;
+
+  .row {
+    // left
+    .headLeft {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .iconHead {
+        i {
+          color: #828282;
+
+          &:hover {
+            color: #555555;
+          }
+        }
+      }
+
+      .iconY {
+        margin: 0px 25px;
+      }
+    }
+
+    //right
+    .headRight {
+      .ulHead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+
+        li {
+          list-style: none;
+
+          .liLinkhead {
+            color: #828282;
+
+            &:hover {
+              color: #555555;
+            }
+
+            .buttonHead {
+              border: none;
+              border: 1px solid #828282;
+              background-color: transparent;
+              border-radius: 4px;
+              padding: 3px 24px;
+              transition: 0.6s;
+              color: #828282;
+
+              &:hover {
+                background-color: #828282;
+                color: white;
+                transition: 0.6s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

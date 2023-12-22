@@ -1,0 +1,81 @@
+.admin-about-page {
+  position: relative;
+
+  .admin-info,
+  .admin-social-media,
+  .admin-certificates {
+    padding: 40px 40px 20px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .admin-info-edit {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    button {
+      width: 30px;
+      height: 30px;
+      color: #3fb44a;
+      border: 1px solid #3fb44a;
+      background-color: #fff;
+    }
+  }
+
+  .admin-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    .admin-info-left-box {
+      padding: 20px;
+      width: 35%;
+      text-align: center;
+      background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+      box-shadow: 0 0 5px 1px rgba(115, 103, 240, 0.7);
+
+      .admin-info-image {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h2 {
+        font-size: 28px;
+        color: #fff;
+        margin: 0;
+      }
+    }
+
+    .admin-info-right-box {
+      width: 65%;
+    }
+  }
+
+  .admin-social-media {
+    margin: 20px 0;
+
+    p {
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .admin-certificates {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 150px;
+    }
+  }
+}

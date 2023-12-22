@@ -1,0 +1,103 @@
+.admin-contacts-page {
+  position: relative;
+
+  p {
+    margin: 0;
+  }
+
+  .admin-contact {
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #4f4f4f;
+    }
+
+    span {
+      font-size: 15px;
+      color: #828282;
+    }
+
+    p {
+      margin: 10px 0 0;
+      font-size: 17px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      word-break: break-all;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:nth-child(odd) {
+      background-color: #ededed;
+    }
+    &:nth-child(even) {
+      background-color: #f8f8f8;
+    }
+  }
+
+  .admin-contact-modal {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    opacity: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #f3f3f3;
+    z-index: 9;
+    transition: 0.3s;
+    padding: 15px;
+
+    & > button {
+      background: transparent;
+      border: none;
+      color: #4f4f4f;
+      font-size: 18px;
+    }
+
+    .admin-modal-content {
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 4px;
+      margin-top: 25px;
+
+      & > p {
+        font-size: 20px;
+        padding-top: 10px;
+        word-break: break-all;
+      }
+
+      .modal-content-header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #4f4f4f;
+
+        .modal-content-header-left {
+          p {
+            font-size: 18px;
+          }
+
+          span {
+            font-size: 15px;
+            color: #828282;
+          }
+        }
+      }
+    }
+  }
+
+  .open-modal {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+}

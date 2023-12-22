@@ -1,0 +1,39 @@
+.learnExcel {
+  margin-top: 90px;
+  .container {
+    .row {
+      .text-learnExcel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: #3fb44a;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .video-learexcel {
+    position: relative;
+    img {
+      border-radius: 16px;
+    }
+
+    .playIcon {
+      position: absolute;
+      top: 43%;
+      left: 45%;
+      i {
+        background-color: #3fb44a;
+        border-radius: 50%;
+        padding: 25px 29px 25px 34px;
+        color: white;
+        font-size: 40px;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+}

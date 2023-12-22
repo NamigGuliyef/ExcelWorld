@@ -1,0 +1,57 @@
+body {
+  textarea {
+    outline: none;
+  }
+  input {
+    outline: none;
+  }
+  .Link {
+    text-decoration: none;
+  }
+  overflow-x: hidden;
+}
+// home
+@import "sketelon";
+@import "Header/header";
+@import "Navigation/navigation";
+@import "HomePage/homeOne";
+@import "HomePage/learnExcel";
+@import "HomePage/past";
+@import "HomePage/excelTemplates";
+@import "GetinTouch/getinTouch";
+
+@import "_excelTemplates";
+@import "_getInTouch";
+@import "_blog";
+@import "Blog/singleBlogPage";
+@import "_footer";
+@import "./FreeResources/resourcesCard";
+@import "./FreeResources/resourcesWrapper";
+@import "./About/about";
+@import "./Auth/auth";
+@import "./Shop/shop";
+@import "./Shop/singleShopPage";
+@import "./SinglePageSocial/singlePageSocial";
+@import "./Blog/blogSidebar";
+@import "./Blog/blogSidebarAccordion";
+@import "./CartBlog/cartBlog";
+@import "./PastInPictures/pastInPictures";
+@import "./UserSettings/userSettings";
+
+@import "./Admin/adminLogin";
+@import "./Admin/admin";
+@import "./Admin/adminBlogs";
+@import "./Admin/adminSinglePage";
+@import "./Admin/createBlog";
+@import "./Admin/adminContacts";
+@import "./Admin/adminAbout";
+@import "./Admin/adminAboutModal";
+@import "./Admin/adminHomePage";
+@import "./Admin/adminResource";
+@import "./Admin/adminCreateCard";
+@import "./Admin/adminUsers";
+@import "./Admin/adminUserPage";
+@import "./Admin/adminHelper";
+
+// about
+@import "_mediaquery";

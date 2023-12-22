@@ -1,0 +1,38 @@
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+  width: 100%;
+  margin: 10px 0 14px;
+  border-radius: 0.125rem;
+}
+
+.skeleton-page-header {
+  height: 45px;
+  width: 40%;
+}
+
+.skeleton-header {
+  height: 30px;
+}
+
+.skeleton-short-text {
+  width: 30% !important;
+  height: 10px;
+}
+
+.skeleton-paragragh {
+  height: 15px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #3fb44a;
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

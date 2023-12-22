@@ -1,0 +1,28 @@
+.resources {
+  margin-bottom: 100px;
+
+  .resources-wrapper {
+    h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 43px;
+      margin-bottom: 45px;
+      color: #3fb44a;
+    }
+
+    & > a {
+      color: #828282;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 30px 0 0 50%;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .resources-card-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 45px 35px;
+    }
+  }
+}

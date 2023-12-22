@@ -1,0 +1,65 @@
+.HomeOne {
+  .row {
+    // height: 600px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+    // left
+    .leftHomeOne {
+      padding-left: 110px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .h1HomeOne {
+        color: #3fb44a;
+        font-size: 45px;
+      }
+
+      .pHomeOne {
+        color: #828282;
+        padding-right: 60px;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+
+      .buttonHomeOne {
+        background: #ff931e;
+        box-shadow: -1px 1px 12px rgba(103, 103, 103, 0.21);
+        border-radius: 4px;
+        color: white;
+        font-weight: 500;
+        border: none;
+        border: 1px solid #ff931e;
+        padding: 14px 25px;
+        margin-top: 10px;
+        transition: 0.6s;
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover {
+          background-color: white;
+          color: #ff931e;
+          border: 1px solid #ff931e;
+          transition: 0.6s;
+        }
+      }
+    }
+
+    // right
+    .rightHomeOne {
+      background: url("../src/assets/Home/Union.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 100%;
+      display: flex;
+      justify-content: flex-end;
+      max-width: 700px;
+
+      .girlimg {
+        width: 100%;
+      }
+    }
+  }
+}

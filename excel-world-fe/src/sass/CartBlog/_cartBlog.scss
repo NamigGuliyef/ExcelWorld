@@ -1,0 +1,43 @@
+.cartProgramming {
+  margin-bottom: 50px;
+
+  h2 {
+    font-size: 28px;
+
+    a {
+      color: #3fb44a;
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 12px;
+
+    li {
+      list-style: none;
+      color: #828282;
+    }
+  }
+
+  .text1-blog {
+    color: #414040;
+    font-size: 22px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .readmoreBlog {
+    font-weight: 600;
+    color: #4f4f4f;
+    text-decoration: none;
+    display: inline-block;
+  }
+}

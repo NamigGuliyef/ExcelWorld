@@ -1,0 +1,27 @@
+.admin-login-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+
+  input,
+  button {
+    padding: 10px;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  input {
+    border: 1px solid #828282;
+  }
+
+  button {
+    background-color: #3fb44a;
+    border: 1px solid #3fb44a;
+    font-size: 18px;
+    color: #fff;
+  }
+}

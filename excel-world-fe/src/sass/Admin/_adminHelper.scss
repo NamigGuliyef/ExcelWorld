@@ -1,0 +1,32 @@
+.admin-helper-notification {
+  position: fixed;
+  top: 30px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  z-index: 999999;
+  right: 0;
+  transform: translate(100%);
+  transition: 0.5s;
+
+  p {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.open-message {
+  transform: translate(-20%);
+}
+
+.failed {
+  background: linear-gradient(
+    98.3deg,
+    rgb(0, 0, 0) 10.6%,
+    rgb(255, 0, 0) 97.7%
+  );
+}
+
+.success {
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}

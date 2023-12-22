@@ -1,0 +1,37 @@
+.admin-users-wrapper {
+  .admin-user-data {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &:nth-child(2n + 1) {
+      background-color: #ccc;
+    }
+
+    &:nth-child(2n) {
+      background-color: #fff;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .admin-user-column {
+      width: 20%;
+      padding: 0 5px;
+      overflow: hidden;
+
+      &:last-child {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+    }
+  }
+}

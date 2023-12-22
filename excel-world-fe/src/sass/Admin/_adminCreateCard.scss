@@ -1,0 +1,22 @@
+.admin-create-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+
+  label {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+}
